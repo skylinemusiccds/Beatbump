@@ -9,7 +9,7 @@ jobs:
   tag_and_release:
     runs-on: ubuntu-20.04
     env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.G_I_THUB_TOKEN }}
 
     steps:
       - name: Tag and Create Release
